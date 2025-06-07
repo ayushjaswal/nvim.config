@@ -7,6 +7,7 @@ Includes:
     - LSPs
     - Zenmode
     - Harpoon (not configured yet)
+    - Theme ("rose-pine")
 
 Run command `git clone https://github.com/ayushjaswal/nvim.config ~/.config/nvim`
 
