@@ -1,19 +1,19 @@
 function ColorMyPencils(color)
-  color = color or 'rose-pine'
+  color = color or 'kanagawa-dragon'
   vim.cmd.colorscheme(color)
 end
 
 return  {
-  "rose-pine/neovim",
-  name = "rose-pine",
+  "rebelot/kanagawa.nvim",
+  name = "kanagawa",
   config = function()
-    require('rose-pine').setup({
+    require('kanagawa').setup({
       disable_background = true,
-      styles = {
-	italic = false,
-      },
+      statementStyle = { bold = true },
+      commentStyle = { italic = true },
+      functionStyle = {italic=false},
     })
     ColorMyPencils()
   end
 }
- 
+

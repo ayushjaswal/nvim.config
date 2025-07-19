@@ -23,7 +23,7 @@ return {
 	  require("gitsigns").blame_line({ full = true })
 	end, { desc = "Git blame full" })
 
-	vim.o.updatetime = 100;
+	vim.o.updatetime = 50;
 
 	map("n", "]h", gs.next_hunk, "Next Hunk")
 	map("n", "[h", gs.prev_hunk, "Prev Hunk")
