@@ -24,8 +24,8 @@ My personal configuration files for Vim
 - `ggVG` : For selecting everything
 - `<leader>xX` : For `trouble` to diagonise this file
 - `w"+y` : After selecting lines, to use this for copying into the system clipboard
-- `ysiw<cover>` : For surrounding word with <cover>. <cover> is the letter with which you want to surround your word
-- `ds<cover>` : For deleting <cover> around the word! 
+- `ysiw<cover>` : For surrounding word with `<cover>`. `<cover>` is the letter with which you want to surround your word
+- `ds<cover>` : For deleting `<cover>` around the word! 
 - `tf` : For jumping to next function
 - `tr` : For jumping to previous function
 - `<leader>tt` : For opening `aerial` panel
