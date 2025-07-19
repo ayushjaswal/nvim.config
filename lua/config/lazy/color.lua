@@ -1,4 +1,4 @@
-function colorMyPencil(color)
+function ColorMyPencils(color)
   color = color or 'rose-pine'
   vim.cmd.colorscheme(color)
 end
@@ -13,7 +13,7 @@ return  {
 	italic = false,
       },
     })
-    colorMyPencil()
+    ColorMyPencils()
   end
 }
  
